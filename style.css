@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    background: #000000
+}
+
+.a {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.e {
+    border-radius: 24px;
+    background: #ffffff;
+}
+
+.b {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.c {
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.d {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.f {
+    height: 350px;
+}
+
+.g {
+    height: 170px;
+}
+
+.x {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.y {
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.y .e {
+    flex: 1;
+}
+
+.j {
+    height: 350px;
+}
+
+.h {
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.u {
+    flex: 2;
+}
+
+.z {
+    flex: 1;
+}
+
+.w {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.w .e {
+    height: 350px;
+}
